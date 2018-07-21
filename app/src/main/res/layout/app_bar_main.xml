@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:apps="http://schemas.android.com/tools">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/txt_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/font_24"
+                    android:textColor="@color/white"
+                    apps:text="192.168.0.1" />
+
+                <ImageView
+                    android:id="@+id/im_more"
+                    android:layout_width="@dimen/len_40"
+                    android:layout_height="@dimen/len_40"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/len_8"
+                    android:foreground="@drawable/ic_touch_menu"
+                    android:padding="@dimen/len_4"
+                    android:src="@drawable/ic_add" />
+
+                <ImageView
+                    android:id="@+id/im_refresh"
+                    android:layout_width="@dimen/len_40"
+                    android:layout_height="@dimen/len_40"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/len_6"
+                    android:layout_toStartOf="@id/im_more"
+                    android:foreground="@drawable/ic_touch_menu"
+                    android:padding="@dimen/len_4"
+                    android:src="@drawable/ic_refresh" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content" />
+
+</android.support.design.widget.CoordinatorLayout>

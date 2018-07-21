@@ -1,0 +1,9 @@
+<litepal>
+    <dbname value="device_info"/>
+
+    <version value="1"/>
+
+    <list>
+        <mapping class="com.yc.intelligentlightingassistant.bean.DeviceInfo"/>
+    </list>
+</litepal>

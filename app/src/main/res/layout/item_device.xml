@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/textview_border"
+    android:orientation="horizontal"
+    android:padding="3dp">
+
+
+    <TextView
+        android:id="@+id/txt_aisle"
+        android:layout_width="@dimen/len_92"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="@dimen/len_4"
+        android:textSize="@dimen/font_38"
+        apps:text="16路" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/txt_freq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/len_4"
+            android:textSize="@dimen/font_20"
+            apps:text="频率:" />
+
+        <TextView
+            android:id="@+id/txt_duty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/len_4"
+            android:textSize="@dimen/font_20"
+            apps:text="占空比:100" />
+
+        <TextView
+            android:id="@+id/txt_voltage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/len_2"
+            android:textSize="@dimen/font_20"
+            apps:text="电流:" />
+    </LinearLayout>
+</LinearLayout>

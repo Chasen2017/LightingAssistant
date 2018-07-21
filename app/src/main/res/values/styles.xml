@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/dropDownStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--用于修改PopupMenu背景颜色的-->
+    <style name="MyPopupMenu">
+        <item name="android:popupBackground">@color/grey_300</item>
+    </style>
+
+    <!--用于添加PopupMenu分割线和点击效果-->
+    <style name="dropDownStyle">
+        <item name="android:divider">@color/black_alpha_144</item>
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:listSelector">@drawable/sel_popup_menu</item>
+    </style>
+
+
+</resources>

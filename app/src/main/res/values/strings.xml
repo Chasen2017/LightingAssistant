@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">智能照明助手</string>
+    <string name="title_assist_permissions">授予权限</string>
+    <string name="label_permission_network">网络访问</string>
+    <string name="label_permission_network_desc">用于WIFI传输数据</string>
+    <string name="label_permission_read">读取文件权限</string>
+    <string name="label_permission_read_desc">用于读取本地的WIFI信息</string>
+    <string name="label_permission_sys_setting">系统设置</string>
+    <string name="label_permission_sys_setting_desc">用于开启WIFI热点信息</string>
+    <string name="label_permission_submit">授权</string>
+    <string name="label_permission_ok">授权成功</string>
+    <string name="label_error_without_permission">没有权限信息，请为软件授予权限信息！</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_set_device">设置该设备16路参数</string>
+    <string name="menu_set_all_devices">设置全部设备16路参数</string>
+    <string name="error_input_null">输入不能为空！</string>
+</resources>
